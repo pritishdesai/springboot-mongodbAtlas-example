@@ -1,5 +1,8 @@
 spring:
   application:
     name: JobListing
-
+  data:
+    mongodb:
+      uri: mongodb+srv://mdpritish:pritish1996@pritishpersonalcluster.crmiijz.mongodb.net/?retryWrites=true&w=majority&appName=PritishPersonalCluster
+      database: pritish-personal
 
