@@ -1,3 +1,13 @@
+server:
+  port: 8123
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger
+    operations-sorter: method
+
 spring:
   application:
     name: JobListing
@@ -5,4 +15,6 @@ spring:
     mongodb:
       uri: mongodb+srv://mdpritish:pritish1996@pritishpersonalcluster.crmiijz.mongodb.net/?retryWrites=true&w=majority&appName=PritishPersonalCluster
       database: pritish-personal
+      authentication-database: admin
+
 
